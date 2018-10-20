@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "New Website",
   "main": "index.js",
-  "homepage": "https://angelodrake.github.io/angelodrake.github.io",
+  "homepage": "https://angelodrake.github.io/modern_portfolio",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
     "deploy": "gh-pages -d dist"
