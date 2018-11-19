@@ -55,8 +55,9 @@
       transform: translate3d(0, 0, 0); }
     .menu-branding .portrait {
       width: 250px;
-      height: 250px;
-      background: url(https://via.placeholder.com/250x250);
+      height: 300px;
+      background: url(../img/angelo.jpg);
+      background-size: cover;
       border-radius: 50%;
       border: solid 3px #eece1a; }
   .menu .nav-item {
@@ -268,9 +269,10 @@ main {
     height: 25vh;
     transform: translate3d(100%, 0, 0); }
     .menu-branding .portrait {
-      background: url(https://via.placeholder.com/150x150);
+      background: url(../img/angelo.jpg);
+      background-size: cover;
       width: 150px;
-      height: 150px; }
+      height: 175px; }
   .about-info {
     grid-template-areas: "bioimage" "bio" "job1" "job2" "job3";
     grid-template-columns: 1fr; }
